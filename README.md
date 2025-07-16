@@ -1,3 +1,4 @@
+## Code
 ### 1. Download ImageNet-1K pre-trained model from the official repository or MMSelfSup. (This model is considered a suspicious model $M_{sus}$.)
 MAE: https://github.com/facebookresearch/mae.
 
@@ -14,7 +15,10 @@ Other Models: https://mmselfsup.readthedocs.io/en/latest/model_zoo.html.
 python train_reconstructor.py
 ```
 
-### 3. Compute $\Delta \mathcal{R}_{vt}$ and $\Delta \mathcal{R}_{pt}$, then perform hypothesis testing.
+### 3. Perform hypothesis testing.
 ```
 python test_reconstructor.py
 ```
+
+## Acknowledgement
+This resipotry is based on [CTRL](https://github.com/meet-cjli/CTRL)
